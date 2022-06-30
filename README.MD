@@ -11,7 +11,7 @@
 exemplo: ao chamar  t1.botãovolume("+",5) , o botão sera presionado 5 vezes. <br>
 --> botãoCanal(), pode ser passado "+" ou "-" e a quantidades de vezes padrão = 1 <br>
 exemplo: ao chamar  t1.botãoCanal("+",3) , o botão sera presionado 3 vezes. caso detectado uma frequencia ele ia avisar. <br>
---> quebrar(), para quebrar para deixar a televisão inutilisavel. <br>
+--> quebrar(), para quebrar para deixar a televisão inultilisavel. <br>
 --> consertar(), conserta a televisão caso esteja quebrada. <br>
 
 ------------- Resultados ---------------<br>
