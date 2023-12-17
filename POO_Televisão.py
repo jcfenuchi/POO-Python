@@ -23,7 +23,7 @@ class televisão:
             print("ligando a televisão")
             self.ligada = True
             return
-
+    # desliga a televisão
     def desligar(self):
         if not self.ligada and self.funcionando ==True:
             print("A televisão já esta desligada")
