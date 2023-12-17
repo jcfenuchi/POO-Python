@@ -11,7 +11,6 @@ class televisão:
         self.canal = canal
         self.funcionando = funcionando
 
-
     #Ligando / desligando a televisão
     def ligar(self):
         if self.ligada and self.funcionando == True:
@@ -90,7 +89,7 @@ class televisão:
             print(f"sua televisão {self.modelo} já está quebrada")
             return
 
-        print(f"sua televisão {self.modelo} quebrou.")
+        print(f"sua televisão {self.modelo} quebrou.!")
         self.funcionando= False
         self.ligada= False
         
@@ -109,7 +108,7 @@ class televisão:
 #Ligar e Desligar //     aumentar canal/volume usando + ou - e o numero de vezes  // quebrar e consertar 
 
 
-t1 = televisão("sansung","preto",400,500)
+t1 = televisão("samsung","preto",400,500)
 t1.ligar()
 
 
